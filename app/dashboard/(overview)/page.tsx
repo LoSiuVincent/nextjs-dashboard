@@ -8,6 +8,12 @@ import {
   RevenueChartSkeleton,
 } from "@/app/ui/skeletons";
 import { Suspense } from "react";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Dashboard",
+  description: "Overview of your Acme Dashboard.",
+};
 
 export default async function Page() {
   return (
